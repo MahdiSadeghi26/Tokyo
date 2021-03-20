@@ -19,9 +19,17 @@ body {
 .navbar-container{
     display: flex;
     justify-content: center;
+    padding-top: 1em;
 }
 /*>>>nav a tag  section */
 .nav-item{
 text-decoration: none;
 color: white;
+font-family: arial;
+font-size: 20px;
+margin-right: 10px;
+}
+/*>>> nav-item hover section */
+.nav-item:hover{
+    color: tomato;
 }
