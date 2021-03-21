@@ -15,10 +15,20 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+/*>>> Container div section <<< */
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+}
 /*>>> nav bar section <<<*/
 .navbar-container {
   display: flex;
   justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 7%;
   padding-top: 1em;
 }
 /*>>>nav a tag  section */
@@ -33,19 +43,18 @@ body {
 .nav-item:hover {
   color: tomato;
 }
-/*>>> Container div section <<< */
-.container{
-  display: flex;
-  overflow: hidden;
-}
+
 /* >>> js-image div section <<< */
-.js-image{
-  width: 400px;
-  height: 400px;
+.js-image {
+  width: 500px;
+  height: 500px;
+  align-self: center;
 }
 /* >>> js-logo img section <<< */
-.js-logo{
-  width: 400px;
-  height: 400px;
+.js-logo {
+  width: 500px;
+  height: 500px;
   border-radius: 15px;
+  justify-self: center;
+  align-self: center;
 }
