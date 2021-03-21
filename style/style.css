@@ -13,23 +13,26 @@ body {
     radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
   background-blend-mode: screen, color-dodge, overlay, difference, normal;
   background-repeat: no-repeat;
-  background-attachment:fixed;
+  background-attachment: fixed;
 }
 /*>>> nav bar section <<<*/
-.navbar-container{
-    display: flex;
-    justify-content: center;
-    padding-top: 1em;
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
 }
 /*>>>nav a tag  section */
-.nav-item{
-text-decoration: none;
-color: white;
-font-family: arial;
-font-size: 20px;
-margin-right: 10px;
+.nav-item {
+  text-decoration: none;
+  color: white;
+  font-family: arial;
+  font-size: 20px;
+  margin-right: 10px;
 }
 /*>>> nav-item hover section */
-.nav-item:hover{
-    color: tomato;
+.nav-item:hover {
+  color: tomato;
+}
+.container{
+  display: flex;
 }
