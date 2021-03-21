@@ -33,6 +33,19 @@ body {
 .nav-item:hover {
   color: tomato;
 }
+/*>>> Container div section <<< */
 .container{
   display: flex;
+  overflow: hidden;
+}
+/* >>> js-image div section <<< */
+.js-image{
+  width: 400px;
+  height: 400px;
+}
+/* >>> js-logo img section <<< */
+.js-logo{
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
 }
