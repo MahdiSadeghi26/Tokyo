@@ -6,6 +6,7 @@
 }
 /* >>> body section <<< */
 body {
+  direction: rtl;
   background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
     linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
     linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
@@ -49,7 +50,12 @@ body {
   width: 500px;
   height: 500px;
   align-self: center;
-  animation: js-animation 3s ease-in-out  infinite alternate both;
+  animation: js-animation 3s ease-in-out 2.5s infinite alternate-reverse both;
+}
+/* >>> js-image animaiton */
+@keyframes js-animation{
+  0%{opacity: 0%;width: 0%;}
+  100%{opacity: 100%;width: 100%;}
 }
 /* >>> js-logo img section <<< */
 .js-logo {
@@ -59,4 +65,3 @@ body {
   justify-self: center;
   align-self: center;
 }
-/* >>> js-image animaiton */
