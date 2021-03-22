@@ -50,12 +50,18 @@ body {
   width: 500px;
   height: 500px;
   align-self: center;
-  animation: js-animation 3s ease-in-out 2.5s infinite alternate-reverse both;
+  animation: js-animation 2.5s ease-in 1.5s infinite alternate forwards;
 }
 /* >>> js-image animaiton */
-@keyframes js-animation{
-  0%{opacity: 0%;width: 0%;}
-  100%{opacity: 100%;width: 100%;}
+@keyframes js-animation {
+  0% {
+    opacity: 50%;
+    width: 0%;
+  }
+  100% {
+    opacity: 100%;
+    width: 100%;
+  }
 }
 /* >>> js-logo img section <<< */
 .js-logo {
@@ -64,4 +70,25 @@ body {
   border-radius: 15px;
   justify-self: center;
   align-self: center;
+}
+/* >>> welcomer div <<< */
+.welcomer {
+  display: flex;
+  width: 450px;
+  height: 300px;
+  align-self: center;
+  color: black;
+  font-family: arial;
+  font-size: 25px;
+  animation: welcomer 1s.5 ease-in-out 1.8s infinite alternate-reverse both;
+}
+/* >>> welcomer animation seciton <<< */
+@keyframes welcomer {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+    font-size: 30px;
+  }
 }
