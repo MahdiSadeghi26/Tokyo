@@ -49,6 +49,7 @@ body {
   width: 500px;
   height: 500px;
   align-self: center;
+  animation: js-animation 3s ease-in-out  infinite alternate both;
 }
 /* >>> js-logo img section <<< */
 .js-logo {
@@ -58,3 +59,4 @@ body {
   justify-self: center;
   align-self: center;
 }
+/* >>> js-image animaiton */
